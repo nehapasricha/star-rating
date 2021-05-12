@@ -1,0 +1,36 @@
+.star-container {
+  display: flex;
+  justify-content: space-around;
+  margin: 40px 30px;
+}
+
+section {
+  width: 500px;
+  height: 100%;
+  background-color: whitesmoke;
+  min-height: 500px;
+  min-height: 500px;
+  text-align: center;
+}
+
+body {
+  display: flex;
+  background-color: black;
+  align-items: center;
+  justify-content: center;
+}
+
+.star i {
+  font-size: 40px;
+  color: grey;
+  cursor: pointer;
+}
+
+.emoji-container {
+  text-align: center;
+}
+
+.emoji {
+  display: none;
+  font-size: 100px;
+}
